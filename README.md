@@ -23,4 +23,4 @@ kubectl create secret generic -n metallb-system memberlist --from-literal=secret
 
 To configure MetalLB deploy config map in metallb-system namespace. Before creating config map provide the internal IP addresses range of your kubernetes cluster to allocate the loadbalancer service.
 
-kubectl create -f metallb-cm.yaml
+```kubectl create -f metallb-cm.yaml```
